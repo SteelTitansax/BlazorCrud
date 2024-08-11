@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{588912F8-F10E-4247-BEDA-D72357E36F99}|BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8.csproj|solutionrelative:blazorcruddotnet8\\blazorcruddotnet8\\components\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{588912F8-F10E-4247-BEDA-D72357E36F99}|BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8.csproj|c:\\users\\titansax\\source\\repos\\blazorcruddotnet8\\blazorcruddotnet8\\blazorcruddotnet8\\components\\pages\\gameslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{588912F8-F10E-4247-BEDA-D72357E36F99}|BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8.csproj|solutionrelative:blazorcruddotnet8\\blazorcruddotnet8\\components\\pages\\gameslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{588912F8-F10E-4247-BEDA-D72357E36F99}|BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8.csproj|c:\\users\\titansax\\source\\repos\\blazorcruddotnet8\\blazorcruddotnet8\\blazorcruddotnet8\\components\\shared\\editgamebutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{588912F8-F10E-4247-BEDA-D72357E36F99}|BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8.csproj|solutionrelative:blazorcruddotnet8\\blazorcruddotnet8\\components\\shared\\editgamebutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588912F8-F10E-4247-BEDA-D72357E36F99}|BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8.csproj|c:\\users\\titansax\\source\\repos\\blazorcruddotnet8\\blazorcruddotnet8\\blazorcruddotnet8\\components\\pages\\gameslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{588912F8-F10E-4247-BEDA-D72357E36F99}|BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8.csproj|solutionrelative:blazorcruddotnet8\\blazorcruddotnet8\\components\\pages\\gameslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{588912F8-F10E-4247-BEDA-D72357E36F99}|BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8.csproj|c:\\users\\titansax\\source\\repos\\blazorcruddotnet8\\blazorcruddotnet8\\blazorcruddotnet8\\components\\shared\\creategamebutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -86,18 +86,17 @@
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Shared\\DeleteGameButton.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T18:42:54.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T18:42:54.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EditGameButton.razor",
               "DocumentMoniker": "C:\\Users\\titansax\\source\\repos\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Shared\\EditGameButton.razor",
               "RelativeDocumentMoniker": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Shared\\EditGameButton.razor",
               "ToolTip": "C:\\Users\\titansax\\source\\repos\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Shared\\EditGameButton.razor",
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Shared\\EditGameButton.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-11T18:21:06.518Z",
               "EditorCaption": ""
@@ -112,8 +111,7 @@
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Shared\\CreateGameButton.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T17:54:40.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T17:54:40.905Z"
             },
             {
               "$type": "Document",
@@ -135,7 +133,7 @@
               "RelativeDocumentMoniker": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Pages\\EditGame.razor",
               "ToolTip": "C:\\Users\\titansax\\source\\repos\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Pages\\EditGame.razor",
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Pages\\EditGame.razor",
-              "ViewState": "AQIAABQAAAAAAAAAAAAuwCYAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-11T17:22:14.345Z",
               "EditorCaption": ""
@@ -154,13 +152,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GamesList.razor",
               "DocumentMoniker": "C:\\Users\\titansax\\source\\repos\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Pages\\GamesList.razor",
               "RelativeDocumentMoniker": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Pages\\GamesList.razor",
               "ToolTip": "C:\\Users\\titansax\\source\\repos\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Pages\\GamesList.razor",
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Pages\\GamesList.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAuwCUAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-11T16:53:09.66Z",
               "EditorCaption": ""
@@ -173,7 +171,7 @@
               "RelativeDocumentMoniker": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Services\\GameService.cs",
               "ToolTip": "C:\\Users\\titansax\\source\\repos\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Services\\GameService.cs",
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Services\\GameService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAADwvxkAAAAMAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvxMAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T16:48:05.706Z",
               "EditorCaption": ""
@@ -188,8 +186,7 @@
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Services\\IGameService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T16:47:48.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T16:47:48.158Z"
             },
             {
               "$type": "Document",
@@ -237,8 +234,7 @@
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\Pages\\Weather.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T15:58:10.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T15:58:10.066Z"
             },
             {
               "$type": "Document",
@@ -250,8 +246,7 @@
               "RelativeToolTip": "BlazorCrudDotNet8\\BlazorCrudDotNet8\\Components\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-11T17:58:33.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T17:58:33.349Z"
             },
             {
               "$type": "Document",

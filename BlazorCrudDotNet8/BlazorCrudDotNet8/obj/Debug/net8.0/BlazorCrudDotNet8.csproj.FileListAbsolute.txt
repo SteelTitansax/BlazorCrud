@@ -161,3 +161,4 @@ C:\Users\titansax\source\repos\BlazorCrudDotNet8\BlazorCrudDotNet8\BlazorCrudDot
 C:\Users\titansax\source\repos\BlazorCrudDotNet8\BlazorCrudDotNet8\BlazorCrudDotNet8\obj\Debug\net8.0\BlazorCrudDotNet8.pdb
 C:\Users\titansax\source\repos\BlazorCrudDotNet8\BlazorCrudDotNet8\BlazorCrudDotNet8\obj\Debug\net8.0\BlazorCrudDotNet8.genruntimeconfig.cache
 C:\Users\titansax\source\repos\BlazorCrudDotNet8\BlazorCrudDotNet8\BlazorCrudDotNet8\obj\Debug\net8.0\ref\BlazorCrudDotNet8.dll
+C:\Users\titansax\source\repos\BlazorCrudDotNet8\BlazorCrudDotNet8\BlazorCrudDotNet8\obj\Debug\net8.0\BlazorCrudDotNet8.sourcelink.json

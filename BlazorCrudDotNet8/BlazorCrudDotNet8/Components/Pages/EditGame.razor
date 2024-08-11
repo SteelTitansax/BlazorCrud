@@ -4,6 +4,7 @@
 @using BlazorCrudDotNet8.Components.Services
 @inject IGameService GameService
 @inject NavigationManager NavigationManager
+@rendermode InteractiveServer
 
 @if( Id.HasValue)
 {
@@ -27,15 +28,14 @@ else
     public int? Id { get; set; }
     [SupplyParameterFromForm]
     Game game { get; set; } = new Game { Name = string.Empty };
-    // protected override async Task OnInitializedAsync()
-    // {
+    protected override async Task OnInitializedAsync()
+    {
 
-    //     if (Id.HasValue )
-    //     {
-    //         game = await GameService.GetGameById((int)Id);
-    //         counter++;
-    //     }
-    // }
+        if (Id.HasValue )
+        {
+            game = await GameService.GetGameById((int)Id);
+        }
+    }
 
     async Task HandleSubmit()
     {

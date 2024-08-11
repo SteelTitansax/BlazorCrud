@@ -17,7 +17,7 @@ namespace BlazorCrudDotNet8.Components.Services
       
         public async Task<Game> AddGame(Game game)
         {
-            _context.Games.Add(game);
+                _context.Games.Add(game);
             await _context.SaveChangesAsync();
             return game;
         }
