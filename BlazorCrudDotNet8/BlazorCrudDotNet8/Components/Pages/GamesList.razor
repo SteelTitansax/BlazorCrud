@@ -1,0 +1,44 @@
+﻿@page "/games"
+@using BlazorCrudDotNet8.Components.Entities
+@using BlazorCrudDotNet8.Components.Services
+@inject IGameService GameService
+@attribute [StreamRendering(true)]
+
+@inject NavigationManager NavigationManager
+
+<h3>GamesList</h3>
+
+@if (games == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (games.Count == 0)
+{
+    <span>No games found.</span>
+}
+else
+{
+    <ul>
+        @foreach (var game in games)
+        {
+            <li>
+                @game.Name
+                <EditGameButton GameId="game.Id" />
+                <DeleteGameButton GameId="game.Id" />
+            </li>
+
+        }
+    </ul>
+}
+<CreateGameButton />
+
+@code {
+    private List<Game>? games;
+
+    protected override async Task OnInitializedAsync()
+    {
+            games = await GameService.GetAllGames();
+    }
+
+   
+}

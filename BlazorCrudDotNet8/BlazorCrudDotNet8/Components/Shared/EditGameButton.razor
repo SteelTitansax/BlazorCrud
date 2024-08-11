@@ -1,0 +1,15 @@
+﻿@using BlazorCrudDotNet8.Components.Entities
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<button @onclick="NavigateToEditGame" class="btn btn-secondary">Edit</button>
+
+@code {
+    [Parameter]
+    public int GameId { get; set; }
+
+    private void NavigateToEditGame()
+    {
+        NavigationManager.NavigateTo($"/edit-game/{GameId}");
+    }
+}

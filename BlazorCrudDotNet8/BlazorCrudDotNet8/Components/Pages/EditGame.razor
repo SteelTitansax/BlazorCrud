@@ -1,0 +1,59 @@
+﻿@page  "/edit-game"
+@page  "/edit-game/{id:int}"
+@using BlazorCrudDotNet8.Components.Entities
+@using BlazorCrudDotNet8.Components.Services
+@inject IGameService GameService
+@inject NavigationManager NavigationManager
+
+@if( Id.HasValue)
+{
+    <h3>Edit Game</h3>
+    
+}
+else
+{
+    <h3>Create Game</h3>
+}
+
+
+<EditForm Model="game" OnSubmit="HandleSubmit" FormName="editGame">
+    <label>Name</label>
+    <InputText @bind-Value="game.Name">@game.Name</InputText>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    [SupplyParameterFromForm]
+    Game game { get; set; } = new Game { Name = string.Empty };
+    // protected override async Task OnInitializedAsync()
+    // {
+
+    //     if (Id.HasValue )
+    //     {
+    //         game = await GameService.GetGameById((int)Id);
+    //         counter++;
+    //     }
+    // }
+
+    async Task HandleSubmit()
+    {
+            
+
+        if (Id.HasValue)
+        {
+
+            await GameService.UpdateGame((int)Id, game);
+
+
+        }
+        else
+        {
+            await GameService.AddGame(game);
+
+        }
+        NavigationManager.NavigateTo("/games");
+
+    }
+}

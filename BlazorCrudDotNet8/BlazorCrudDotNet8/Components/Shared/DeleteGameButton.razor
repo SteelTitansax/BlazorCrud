@@ -1,0 +1,27 @@
+﻿@using BlazorCrudDotNet8.Components.Entities
+@using BlazorCrudDotNet8.Components.Services
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+@inject IGameService GameService
+@inject IJSRuntime JS
+
+
+<button @onclick="DeleteGame" class="btn btn-danger">Delete</button>
+
+@code {
+    [Parameter]
+    public int GameId { get; set; }
+
+    private async Task DeleteGame()
+    {
+        var confirm = await JS.InvokeAsync<bool>("confirm", "Are you sure you want to delete this game?");
+        if (confirm)
+        {
+            await GameService.DeleteGame(GameId);
+            // Notify parent component to refresh the data or navigate
+            StateHasChanged();
+            NavigationManager.NavigateTo("/games");
+
+        }
+    }
+}
